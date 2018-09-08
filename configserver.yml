@@ -1,14 +1,14 @@
-spring:
- profiles:
- active:
+spring: 
+ profiles: 
+ active: 
  - div 
 ---
- spring:
+ spring: 
  profile: dev
  application: 
  name: springcloud-dev
 ---
- spring:
+ spring: 
  profiles: test
- application:
+ application: 
  name: springcloud-test
