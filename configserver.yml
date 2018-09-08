@@ -3,13 +3,13 @@ spring:
  active:
  - div
  
- ————————————
+-----------
  spring:
  profile: dev
  application: 
  name: springcloud-dev
 
- _____________
+ ------------
  spring:
  profiles: test
  application:
