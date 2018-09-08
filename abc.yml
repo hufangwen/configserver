@@ -1,0 +1,27 @@
+spring:
+   profiles:
+     active:
+        - dev
+---
+server:
+port: 8087
+spring:
+profiles: dev
+application:
+name: springcloud-config-client
+eureka:
+client:
+service-url:
+default-Zone: http://localhost:8081/eureka
+
+---
+server:
+port: 8088
+spring:
+profiles: test
+application:
+name: springcloud-config-client
+eureka:
+client:
+service-url:
+default-Zone: http://localhost:8081/eureka
