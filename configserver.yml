@@ -4,11 +4,11 @@ spring:
  - div 
 ---
  spring: 
- profile: dev
- application: 
- name: springcloud-dev
+   profile: dev
+     application: 
+        name: springcloud-dev
 ---
  spring: 
- profiles: test
- application: 
- name: springcloud-test
+     profiles: test
+        application: 
+           name: springcloud-test
