@@ -1,1 +1,16 @@
-foo = foo version 3  state 胡芳文
+spring:
+ profiles:
+ active:
+ - div
+ 
+ ————————————
+ spring:
+ profile: dev
+ application: 
+ name: springcloud-dev
+
+ _____________
+ spring:
+ profiles: test
+ application:
+ name: springcloud-test
